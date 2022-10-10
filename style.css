@@ -239,6 +239,7 @@ nav{
   display: flex;
   margin: 60px 0px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 img[src="./images/Rectangle_38-2 (1).png"]{
   height: 340px;
@@ -275,6 +276,8 @@ img[src="./images/Rectangle_38-2 (1).png"]{
 .download-section{
   margin: 80px 0px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .download-content{
   margin-left: 40px;
@@ -286,9 +289,11 @@ img[src="./images/Rectangle_38-2 (1).png"]{
   font-weight: 400;
 }
 .download-email{
-  margin: 0px 380px;
-
+ 
+  display: flex;
+  justify-content: center;
 }
+
 .download-email input {
   background: #E9EDFF;
   border: none;
@@ -296,6 +301,17 @@ img[src="./images/Rectangle_38-2 (1).png"]{
   padding-right: 300px;
   border-radius: 20px;
  
+}
+@media screen and (max-width:1000px) {
+  .download-email input{
+    padding: 10px;
+    padding-right: 15px;
+  }
+  img[src="./images/Rectangle_38-2 (1).png"]{
+    max-width:100%;
+  }
+
+  
 }
 
 input:focus {
@@ -307,8 +323,6 @@ input:focus {
   padding: 10px 40px;
   color: #Fff;
   border-radius: 15px;
-  position: absolute;
-  right: 26% ;
   margin-top: 5px;
   cursor: pointer;
 
@@ -317,6 +331,7 @@ input:focus {
 .footer-section {
   background-color: #4617FE;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   
   align-items: center;
