@@ -11,7 +11,7 @@ I'm Wasit Ali and this is my 9th project on HTML and CSS.
 
 ![](./images/2022-10-14-15-08-25.png)
 
-🚀 [Live Preview](https://lucent-puppy-11379b.netlify.app/)
+🚀 [Live Preview](https://live-class-project-09-three.vercel.app/)
 
 ## 🛠️ What I have learned in this project?
 
